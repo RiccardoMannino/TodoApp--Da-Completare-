@@ -1,0 +1,4 @@
+Convertire l'esercizio di Odd e Even per gestire una lista di todo.
+Utilizzare l'api fornita nell'esercizio Odd e Even per ottenere delle frasi da inserire nella lista "ToDo" la quale conterrà tutti gli elementi che non sono ancora stati contrassegnati come completati. Ogni riga di questa lista avrà un bottone che chiamerai "Completa" che servirà a completare i task e spostarli nella lista "Done". Entrambe le liste devono essere sempre in vista.
+
+Ho aggiunto la possibilità di passare gli elementi da una lista all'altra
