@@ -29,12 +29,20 @@ export function Api() {
     setLista(lista.filter((prev) => prev !== e.target.id));
   }
 
+  function modifichiamo(e) {
+    e.preventDefault();
+    setData((prev) => [...prev, e.target.elements.modificalo.value]);
+    setRevision(
+      revision.filter((prev) => prev === !!e.target.elements.modificalo.value)
+    );
+  }
+
   return (
     <>
       <button onClick={math}>Submit</button>
       <DaFare prop={{ daFare, data, modifica }} />
       <Fatto prop={{ rifai, lista }} />
-      <Revisioni prop={{ revision }} />
+      <Revisioni prop={{ revision, modifichiamo, data }} />
     </>
   );
 }
