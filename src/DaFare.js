@@ -9,6 +9,9 @@ export function DaFare({ prop }) {
             <button onClick={prop.daFare} id={todos}>
               Completa
             </button>
+            <button onClick={prop.modifica} id={todos}>
+              Revisiona
+            </button>
           </li>
         ))}
       </ul>
