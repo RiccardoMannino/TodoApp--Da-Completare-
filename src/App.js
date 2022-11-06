@@ -1,11 +1,8 @@
-import { Api } from "./Api";
+import { Api } from "./componenti/Api";
+import "./Style/main.css";
 
 function App() {
-  return (
-    <div className="App">
-      <Api />
-    </div>
-  );
+  return <Api />;
 }
 
 export default App;
