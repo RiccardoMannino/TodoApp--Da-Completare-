@@ -10,6 +10,7 @@ export function Revisioni({ prop }) {
               name="modificalo"
               defaultValue={rev}
               ref={prop.outputRef}
+              autoFocus
               className=" ml-1 p-2 rounded my-2"
             ></input>
             <button type="submit" className="bg-slate-300 mx-3 p-2 rounded">
